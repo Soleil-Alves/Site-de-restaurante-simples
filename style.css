@@ -1,47 +1,101 @@
 body {
-    background-image: url('https://www.didikrepinsky.com/wp-content/uploads/2017/03/71.above_.jpg');
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding: 0;
-  }
-  h1 {
-    color: white;
-    text-align: center;
-    font-size: 4rem;
-    margin-top: 30vh;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  }
-  h2{
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-   font-weight: 700;
-  }
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 30vh;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
 
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 700;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+section {
+  padding: 50px;
+  margin-top: 0;
+}
+
+#home {
+  background-image: url('https://www.didikrepinsky.com/wp-content/uploads/2017/03/71.above_.jpg');
+  height: 500px;
+  background-position: center center;
+  /* ajuste a altura conforme necessário */
+}
+
+/* Estilos para a seção Sobre Nós */
+#about {
+  background-color: rgb(148, 83, 23);
+  height: 500px;
+  display: flex;
+  justify-content: space-between; /* coloca os elementos em ambos os lados da seção */
+  margin: 0 auto; /* centraliza a seção horizontalmente */
+  max-width: 1200px; /* define a largura máxima da seção */
+  padding: 50px; /* define o espaço em torno dos elementos */
+}
+
+#contact{
+  
+  height: 500px;
+  /* ajuste a altura conforme necessário */
+}
+
+#contact h2{
+  color: black;
+}
+
+image {
+  border-radius: 10px; /* define as bordas arredondadas */
+  overflow: hidden; /* esconde as partes da imagem que ultrapassam as bordas arredondadas */
+  width: 50%; /* define a largura da imagem */
+}
+
+.image img {
+  display: block; /* evita espaços extras abaixo da imagem */
+  width: 100%; /* ajusta a imagem ao contêiner */
+}
+
+.text {
+  width: 45%; /* define a largura do texto */
+}
+
+.text h2 {
+  font-size: 2rem; /* define o tamanho da fonte do título */
+}
+
+.text p {
+  font-size: 1.2rem; /* define o tamanho da fonte do texto */
+}
