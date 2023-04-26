@@ -1,47 +1,127 @@
 body {
-    background-image: url('https://www.didikrepinsky.com/wp-content/uploads/2017/03/71.above_.jpg');
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding: 0;
-  }
-  h1 {
-    color: white;
-    text-align: center;
-    font-size: 4rem;
-    margin-top: 30vh;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  }
-  h2{
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-   font-weight: 700;
-  }
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 30vh;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
 
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
+h2 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+  align-items: center;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #1d1b1b;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
+nav img{
+  width: 50px;
+}
+
+header {
+  background-color: rgb(241, 234, 232);
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+section {
+  padding: 50px;
+  margin-top: 0;
+}
+
+#home {
+  background-image: url('https://www.didikrepinsky.com/wp-content/uploads/2017/03/71.above_.jpg');
+  height: 500px;
+  background-position: center center;
+
+}
+
+
+#about {
+  background-color: rgb(221, 154, 122);
+  height: 500px;
+  display: flex;
+  justify-content: space-between; 
+  margin: 0 auto; 
+  max-width: 1200px; 
+  padding: 100px; 
+}
+
+#about img{
+  border-radius: 10px;
+}
+
+#contact{
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  display: flex;
+  justify-content: space-between; 
+  margin: 0 auto; 
+  max-width: 1200px; 
+  padding: 100px;
+}
+
+#contact h2{
+  color: black;
+  
+}
+
+
+.text {
+  width: 50%; 
+  text-align: justify;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.text h2 {
+  font-size: 2rem; 
+}
+
+.text p {
+  font-size: 1rem;
+}
+
+.contact-us{
+  width: 50%; 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
