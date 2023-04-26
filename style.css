@@ -12,15 +12,21 @@ h1 {
 }
 
 h2 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
   text-align: center;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  
+  align-items: center;
+
 }
 
 nav li {
@@ -29,14 +35,18 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: #1d1b1b;
   text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
 }
 
+nav img{
+  width: 50px;
+}
+
 header {
-  background-color: #333;
+  background-color: rgb(241, 234, 232);
   color: #fff;
   padding: 10px;
   position: fixed;
@@ -53,49 +63,65 @@ section {
   background-image: url('https://www.didikrepinsky.com/wp-content/uploads/2017/03/71.above_.jpg');
   height: 500px;
   background-position: center center;
-  /* ajuste a altura conforme necessário */
+
 }
 
-/* Estilos para a seção Sobre Nós */
+
 #about {
-  background-color: rgb(148, 83, 23);
+  background-color: rgb(221, 154, 122);
   height: 500px;
   display: flex;
-  justify-content: space-between; /* coloca os elementos em ambos os lados da seção */
-  margin: 0 auto; /* centraliza a seção horizontalmente */
-  max-width: 1200px; /* define a largura máxima da seção */
-  padding: 50px; /* define o espaço em torno dos elementos */
+  justify-content: space-between; 
+  margin: 0 auto; 
+  max-width: 1200px; 
+  padding: 100px; 
+}
+
+#about img{
+  border-radius: 10px;
 }
 
 #contact{
-  
+  background-color: rgb(255, 255, 255);
   height: 500px;
-  /* ajuste a altura conforme necessário */
+  display: flex;
+  justify-content: space-between; 
+  margin: 0 auto; 
+  max-width: 1200px; 
+  padding: 100px;
 }
 
 #contact h2{
   color: black;
+  
 }
 
-image {
-  border-radius: 10px; /* define as bordas arredondadas */
-  overflow: hidden; /* esconde as partes da imagem que ultrapassam as bordas arredondadas */
-  width: 50%; /* define a largura da imagem */
-}
-
-.image img {
-  display: block; /* evita espaços extras abaixo da imagem */
-  width: 100%; /* ajusta a imagem ao contêiner */
-}
 
 .text {
-  width: 45%; /* define a largura do texto */
+  width: 50%; 
+  text-align: justify;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .text h2 {
-  font-size: 2rem; /* define o tamanho da fonte do título */
+  font-size: 2rem; 
 }
 
 .text p {
-  font-size: 1.2rem; /* define o tamanho da fonte do texto */
+  font-size: 1rem;
+}
+
+.contact-us{
+  width: 50%; 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
